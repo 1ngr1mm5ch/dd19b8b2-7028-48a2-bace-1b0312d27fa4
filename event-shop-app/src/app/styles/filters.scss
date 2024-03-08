@@ -1,0 +1,12 @@
+.filters {
+    position: relative;
+    display: flex;
+    min-width: 100%;
+    
+    div {
+        margin-right: 0.5rem;
+        padding: 0.5rem 1rem;
+        border: 1px solid lightgray;
+        border-radius: 1.5rem;
+    }
+}

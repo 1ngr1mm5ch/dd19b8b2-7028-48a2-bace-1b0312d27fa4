@@ -1,0 +1,41 @@
+//reset a button
+button {
+    background: none;
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+//reset for inputs
+input {
+    all: unset;
+}
+
+.add-button {
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: $color-primary;
+    color: white;
+    border-radius: 2rem;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0.5rem;
+
+    &:hover {
+        cursor: pointer;
+        background-color: $color-secondary;
+    }
+}
+
+
+
+.search-input {
+    background-color: rgba($color: #649fe2, $alpha: 0.5);
+    border-radius: 0.25rem;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin-right: 0.5rem;
+    color: #f1f1f1;
+}
